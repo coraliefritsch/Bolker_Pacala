@@ -9,7 +9,7 @@ class population(object):
             
                 .taille qui est le nombre d'individus de la population
                 
-                .individus qui est une liste de taille self.taille (allocation de mémoire)
+                .individus qui est une liste de taille param.taille_maximale_de_la_population (allocation de mémoire)
                     les self.taille premiers éléments de la liste sont les individus de la population
                     distibués uniformément sur le tore [0,Lx]x[0,Ly] (où Lx et Ly sont des arguments
                      de param (de la classe paramètres))   
